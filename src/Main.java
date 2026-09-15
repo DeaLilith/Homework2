@@ -77,9 +77,8 @@ public class Main {
 
 
             //Задача 7
-            var weightDif= weightBoxer2 % weightBoxer1;
-            System.out.println("Разница в весе" + weightDif);
-
+            var weightDiff=weightBoxer2-weightBoxer1;
+            System.out.println("Разница веса боксеров будет равна" + weightDiff + "килограмм.");
         }
 
         {
@@ -91,7 +90,7 @@ public class Main {
             var staff=hours / peopleHours;
             System.out.println("Всего работает" + staff + "человек в компании");
             var staffIncrease=staff + 94;
-            var staffIncreaseHours=hours / staffIncrease;
+            var staffIncreaseHours=peopleHours * staffIncrease;
             System.out.println("Если в компании работает" + staffIncrease + "человек, то всего" + staffIncreaseHours + "часов работы может быть поделено между сотрудниками");
 
         }
